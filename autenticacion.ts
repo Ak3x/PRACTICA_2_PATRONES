@@ -4,6 +4,7 @@ $ node autenticacion.js sha256 usuario password
 
 import {devolverSHA256} from "./criptografia"
 
+//CONVERTIRLO A SINGLETON
 class AdapterFactory
 {
     obtenerAdapter(tipo : string) : EncriptadorAdapter
